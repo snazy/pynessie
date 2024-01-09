@@ -47,6 +47,10 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+# OpenAPI
+tmp/
+pynessie/api/rest/internal/
+
 # Translations
 *.mo
 *.pot

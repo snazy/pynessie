@@ -1,5 +1,4 @@
-#
-# Copyright (C) 2020 Dremio
+# Copyright (C) 2023 Dremio
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,18 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-attrs==23.1.0
-botocore==1.31.84
-Click==8.1.7
-confuse==2.0.1
-desert==2022.9.22
-marshmallow==3.20.1
-marshmallow_oneofschema==3.0.1
-python-dateutil>=2.8.0
-requests==2.31.0
-requests-aws4auth==1.2.3
-simplejson==3.19.2
 
-urllib3 >= 1.25.3, < 2.1.0
-pydantic >= 2.5
-typing-extensions >= 4.7.1
+class NessieApi:
+    pass
+
+class NessieApiV2(NessieApi):
+    pass
